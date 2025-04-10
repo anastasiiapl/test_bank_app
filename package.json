@@ -1,0 +1,20 @@
+{
+  "name": "test_bank_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "all:ui": "npx playwright test --project=chromium --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
